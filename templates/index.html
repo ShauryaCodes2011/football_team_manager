@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <style>
+        @font-face {
+            font-family: "LemonMilk";
+            src:url("fonts/LEMONMILK-Medium.otf") format('otf')
+        }
+    h1{
+        font-family: 'LemonMilk' , sans-serif;
+        font-size: 2.5rem;
+        color: black;
+    }    
+    h2{
+        font-family: 'LemonMilk' , sans-serif;
+        font-size: 1.5rem;
+        color: black;
+    }    
+
+    </style>
+</head>
+
+<body>
+
+<h1>Football Team Analysis</h1>
+<form method="post">
+    <label>Team A Name</label>
+    <input name="teamA">
+
+
+    <label>Team B Name</label>  
+    <input name="teamB">
+
+    <button type="submit">Submit</button>
+</form>
+
+<!-- <table>
+    <tr>
+        <th>{{teamname1}}</th>
+        <th>{{teamname2}}</th>
+    </tr>
+    <tr>
+        <td>Description : {{description1}}</td>
+        <td>Description : {{description2}}</td>
+    </tr>
+    <tr>
+        <td>Score : {{score1}}</td>
+        <td>Score : {{score2}}</td>
+    </tr>
+
+</table> -->
+<h2>{{teamname1}}</h2>
+<p>{{description1}}</p>
+<p>The score is {{score1}}</p>
+<h2>            </h2>
+<h2>{{teamname2}}</h2>
+<p>{{description2}}</p>
+<p>The score is {{score2}}</p>
+
+</body>
+
+</html>
