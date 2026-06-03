@@ -53,3 +53,6 @@ if __name__=="__main__":
 # HW
 # get and post request, use llm , compare two games
 # mood=" i want to racing game "
+
+
+#teacher wants to compare the solution of two candidates
